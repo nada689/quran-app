@@ -6,9 +6,9 @@ import SearchBar from "./search_bar";
 export default function NavBar() {
   return (
     <>
-      <header className="bg-nav mb-2 w-full px-5">
-        <nav className="flex flex-wrap items-center justify-between">
-          <div className="flex flex-wrap items-center gap-4">          
+      <header className="bg-nav mb-2 w-full px-5 max-sm:px-1">
+        <nav className="flex items-center justify-between">
+          <div className="flex items-center gap-4 max-sm:gap-2">          
             <Image
             src="/img/quran_logo.png"
             width={100}
@@ -24,7 +24,7 @@ export default function NavBar() {
               Home
             </Link>
             <Link
-              className="flex flex-wrap items-center gap-4 text-white"
+              className="flex items-center gap-4 text-white max-sm:gap-1"
             href={{
               pathname: `/quran/ماهر المعيقلي`,
               query: {
@@ -42,7 +42,7 @@ export default function NavBar() {
                 className={""}
               />
             </Link></div>
-          <div className="max-sm:mx-auto"><SearchBar color={"bg-white"}/></div>
+          <div className="max-sm:w-1/3"><SearchBar color={"bg-white"}/></div>
 
         </nav>
       </header>

@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <>
             <footer className="bg-black mt-2 w-full px-5">
-                <div className="flex flex-wrap items-center gap-4">
+                <div className="flex items-center gap-4">
                     <Image
                         src="/img/logo.png"
                         width={70}
