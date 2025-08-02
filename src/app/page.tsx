@@ -14,7 +14,7 @@ export default function App() {
       <NavBar />
 
       <h1 className="text-6xl w-fit mx-auto py-5">استمتع بجمال القرآن</h1>
-      <div className="w-3/4 sm:w-11/12 mx-auto py-1"><SearchBar color={"gray-200"} /></div>
+      <div className="w-3/4 sm:w-11/12 mx-auto py-1"><SearchBar color={"bg-gray-200"} /></div>
       <div className="w-3/4 sm:w-11/12 mx-auto my-3.5 flex flex-wrap items-center justify-start rounded-md gap-1 border flex-row-reverse">
         <Image
           src={"/img/Frame.svg"}

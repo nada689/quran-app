@@ -25,7 +25,7 @@ export default function SearchBar({ color }: { color: string }) {
         <div>
             <div className="relative mt-2">
                 <label htmlFor="search" className="text-black text-3xl absolute -top-0.5 z-30 ml-1" onClick={() =>handleSearch(inputRef.current?.value || '')}>⌕</label>
-                <input id="search" type="search" name="search" placeholder="ابحث هنا" ref={inputRef}  onChange={() => handleSearch(inputRef.current?.value || '')} className={`bg-${color} p-2 w-full rounded-md  text-end`} />
+                <input id="search" type="search" name="search" placeholder="ابحث هنا" ref={inputRef}  onChange={() => handleSearch(inputRef.current?.value || '')} className={`${color} p-2 w-full rounded-md  text-end`} />
             </div>
             {/* show results*/}
             <div className="mt-4 space-y-2 mb-4" dir="rtl">
@@ -48,7 +48,7 @@ export default function SearchBar({ color }: { color: string }) {
                         </Link>
                     ))
                 ) : (
-                    inputRef.current?.value && <p className={`text-${color}`}>لا توجد نتائج</p>
+                    inputRef.current?.value && <p className="text-gray-500">لا توجد نتائج</p>
                 )}
             </div>
         </div>
