@@ -42,7 +42,7 @@ export default function NavBar() {
                 className={""}
               />
             </Link></div>
-          <div><SearchBar color={"bg-white"}/></div>
+          <div className="max-sm:mx-auto"><SearchBar color={"bg-white"}/></div>
 
         </nav>
       </header>
