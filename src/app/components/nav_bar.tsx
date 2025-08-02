@@ -42,7 +42,7 @@ export default function NavBar() {
                 className={""}
               />
             </Link></div>
-          <div><SearchBar color={"bg-white"}/></div>
+          <div><SearchBar color={"white"}/></div>
 
         </nav>
       </header>
