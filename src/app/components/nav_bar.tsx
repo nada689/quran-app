@@ -35,7 +35,7 @@ export default function NavBar() {
             >
               Quran
               <Image
-                src="/img/Vector.png"
+                src="/img/vector.png"
                 width={20}
                 height={20}
                 alt={"quran"}
